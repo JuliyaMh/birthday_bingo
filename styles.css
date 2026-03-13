@@ -101,6 +101,18 @@ input {
     height: min(50px, 8vw);
     font-size: min(28px, 5vw);
     color: #112250;
+    
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+   
+    padding: 0;
+    margin: 0;
+    
+ 
+    line-height: 1; 
 }
 
 #score {
