@@ -1,0 +1,117 @@
+.fredoka-<uniquifier> {
+  font-family: "Fredoka", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: light;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+
+
+body {
+    min-height: 100vh;
+    margin: 0;
+    background-image: url('pictures/background.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    overflow: hidden;
+}
+
+h1 {
+    font-size: clamp(34px, 8vw, 40px);
+    font-weight: light;
+    font-family: 'Fredoka', sans-serif;
+
+    color: #F5F0E9;
+
+    text-align: center;
+    margin: 15vh 0 5vh 0;
+
+    text-shadow: 4px 4px 8px rgba(0,0,0,0.3);
+
+    letter-spacing: 15%;
+}
+
+input {
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #112250;
+}
+
+.block {
+    box-sizing: border-box;
+    background-color: #F5F0E9;
+
+    border-top: 5px solid #E0C58F;
+    border-bottom: 3px solid #E0C58F;
+    border-left: 3px solid #E0C58F;
+    border-right: 5px solid #E0C58F;
+
+    border-radius: 20px;
+
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.3);
+    padding-top: 5%;
+    padding-left: 7%;
+    padding-right: 10%;
+}
+
+.text {
+    color: #112250;
+    font-family: "Comfortaa", sans-serif;
+
+}
+
+.little {
+    font-size: clamp(20px, 4vw, 22px);
+}
+
+.big {
+    font-size: clamp(24px, 5vw, 28px);
+}
+
+#fact {
+    width: 80%;
+    height: 40vh;
+    margin-left: 10%;
+}
+
+#name {
+    width: 80%;
+    height: 10vh;
+    margin-left: 10%;
+    margin-top: 5vh;
+
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+    padding: 0 7%;
+}
+
+#name input {
+    flex: 1;
+    min-width: 0;
+}
+
+.submit-btn {
+    width: min(50px, 8vw);
+    height: min(50px, 8vw);
+    font-size: min(28px, 5vw);
+    color: #112250;
+}
+
+#score {
+    width: 34%;
+    height: 6vh;
+    margin-left: 55%;
+    margin-top: 5vh;
+
+    display: flex;
+    align-items: center;
+
+    padding: 0;
+    padding-left: 7%;
+}
+
