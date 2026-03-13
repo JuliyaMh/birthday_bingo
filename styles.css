@@ -73,13 +73,13 @@ input {
 
 #fact {
     width: 80%;
-    height: 40vh;
+    height: 40dvh;
     margin-left: 10%;
 }
 
 #name {
     width: 80%;
-    height: 10vh;
+    height: 10dvh;
     margin-left: 10%;
     margin-top: 5vh;
 
@@ -104,7 +104,7 @@ input {
 
 #score {
     width: 34%;
-    height: 6vh;
+    height: 6dvh;
     margin-left: 55%;
     margin-top: 5vh;
 
