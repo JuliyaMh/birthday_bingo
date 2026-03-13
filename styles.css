@@ -117,14 +117,22 @@ input {
 
 #score {
     width: 34%;
-    height: 6dvh;
+    height: 6vh;
     margin-left: 55%;
     margin-top: 5vh;
 
     display: flex;
-    align-items: center;
+    align-items: center;     /* центрируем по вертикали */
+    justify-content: flex-start;  /* текст слева (или center если хочешь по центру) */
 
     padding: 0;
     padding-left: 7%;
 }
 
+#score_num {
+    margin: 0;  /* убираем стандартные отступы p */
+    line-height: 1;  /* фиксируем межстрочный интервал */
+    display: flex;
+    align-items: center;
+    height: 100%;  /* на всю высоту родителя */
+}
